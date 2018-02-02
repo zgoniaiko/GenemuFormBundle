@@ -34,7 +34,7 @@ class FormExtension extends \Twig_Extension
      *
      * @param TwigRenderer $renderer
      */
-    public function __construct(TwigRenderer $renderer)
+    public function __construct(FormRenderer $renderer)
     {
         $this->renderer = $renderer;
     }
